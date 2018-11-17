@@ -3,13 +3,23 @@ html {
 }
 
 img:hover {
-  transform: scale(1.25);
+  transform: scale(1.1);
 }
+
 .container {
   margin: auto;
   position: absolute;
   top: 25%;
   width: 99%;
+}
+
+.icon {
+  bottom: 0px;
+  float: right;
+  margin: 0 auto 0 auto;
+  position: fixed;
+  padding: 1em;
+  transform: scale(0.9);
 }
 
 .logo {
