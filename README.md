@@ -2,13 +2,13 @@
 This is the repository to hold my hub, the jumping off point to all I am on the interwebz.
 
 ## My Collections
-* GitHub
-* NPM
-* DockerHub
+* GitHub (https://github.com/rchillard)
+* NPM (https://www.npmjs.com/~rchillard)
+* DockerHub (https://hub.docker.com/u/rchillard/)
+* Blog (https://rchillard.com/)
 
 ## Future To-Be-Added Items
 As these items come online and have relevancy, I will add links to them:
 * Trello
-* Blog
 * Medium
 * YouTube?
