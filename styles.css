@@ -23,10 +23,78 @@ img:hover {
   padding-top: 5rem;
 }
 
-.logo {
+.service {
   margin: 0 auto 0 auto;
   padding: 2rem;
   width: 10rem;
+}
+
+.logo {
+  background-color: black;
+  height: 6rem;
+  margin: 0 auto 0 auto;
+  padding: 2rem;
+  width: 6rem;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+.logo-aws {
+  -webkit-mask-image: url(assets/aws.svg);
+  mask-image: url(assets/aws.svg);
+}
+
+.logo-aws:hover {
+  background-color: #FF9900;
+}
+
+.logo-circleci {
+  -webkit-mask-image: url(assets/circleci.svg);
+  mask-image: url(assets/circleci.svg);
+}
+
+.logo-circleci:hover {
+  background: #FEAC5E;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+}
+
+.logo-github {
+  -webkit-mask-image: url(assets/github.svg);
+  mask-image: url(assets/github.svg);
+}
+
+.logo-github:hover {
+  background-color: white
+}
+
+.logo-googleplay {
+  -webkit-mask-image: url(assets/googleplay.svg);
+  mask-image: url(assets/googleplay.svg);
+}
+
+.logo-googleplay:hover {
+  background-color:#ff5722
+}
+
+.logo-trello {
+  -webkit-mask-image: url(assets/trello.svg);
+  mask-image: url(assets/trello.svg);
+}
+
+.logo-trello:hover {
+  background-color: #026aa7;
+}
+
+.logo-udemy {
+  -webkit-mask-image: url(assets/udemy.svg);
+  mask-image: url(assets/udemy.svg);
+}
+
+.logo-udemy:hover {
+  background-color: #EC5252;
 }
 
 .unlaunched {
