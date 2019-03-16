@@ -4,6 +4,7 @@ html {
 
 body {
   font-family: 'Lobster', serif;
+  margin-left: 0;
 }
 
 img:hover {
@@ -27,6 +28,14 @@ img:hover {
   margin: 0 auto 0 auto;
   padding: 2rem;
   width: 10rem;
+}
+
+.footer {
+  background: rgb(44, 122, 44);
+  bottom: 0px;
+  height: 2rem;
+  position: absolute;
+  width: 100%;
 }
 
 .logo {
@@ -133,4 +142,17 @@ img:hover {
   height: 99%;
   overflow: hidden;
   z-index: -1;
+}
+
+#sunrise {
+  bottom: 2rem;
+  margin: 0 5rem;
+  position: absolute;
+}
+
+#sunset {
+  bottom: 2rem;
+  margin: 0 5rem;
+  right: 5rem;
+  position: absolute;
 }
