@@ -132,4 +132,5 @@ img:hover {
   width: 99%;
   height: 99%;
   overflow: hidden;
+  z-index: -1;
 }
