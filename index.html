@@ -1,33 +1,57 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>RCH</title>
-    <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link rel="stylesheet" href="styles.css" />
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker
+          .register("sworker.js")
+          .then(function(reg) {
+            // registration worked
+            console.log("Registration succeeded. Scope is " + reg.scope);
+          })
+          .catch(function(error) {
+            // registration failed
+            console.log("Registration failed with " + error);
+          });
+      }
+    </script>
   </head>
   <body>
     <canvas id="stars"></canvas>
     <div class="container">
       <div class="service">
-        <a href="https://rchillard.com/"><img src="assets/logo.svg" alt="Blog logo"></a>
+        <a href="https://rchillard.com/"
+          ><img src="assets/logo.svg" alt="Blog logo"
+        /></a>
       </div>
       <div class="service">
-        <a href="https://github.com/rchillard"><img src="assets/github.svg" alt="GitHub logo"></a>
+        <a href="https://github.com/rchillard"
+          ><img src="assets/github.svg" alt="GitHub logo"
+        /></a>
       </div>
       <div class="service unlaunched">
-        <a href="https://www.npmjs.com/~rchillard"><img src="assets/npm.svg" alt="NPM logo"></a>
+        <a href="https://www.npmjs.com/~rchillard"
+          ><img src="assets/npm.svg" alt="NPM logo"
+        /></a>
       </div>
       <div class="service unlaunched">
-        <a href="https://hub.docker.com/u/rchillard/"><img src="assets/docker.svg" alt="Docker logo"></a>
+        <a href="https://hub.docker.com/u/rchillard/"
+          ><img src="assets/docker.svg" alt="Docker logo"
+        /></a>
       </div>
       <div class="service unlaunched">
-        <a href="https://trello.com"><img src="assets/trello.svg" alt="Trello logo"></a>
+        <a href="https://trello.com"
+          ><img src="assets/trello.svg" alt="Trello logo"
+        /></a>
       </div>
     </div>
     <canvas id="sunrise" height="32" width="150"></canvas>
     <canvas id="sunset" height="32" width="150"></canvas>
     <div class="footer"></div>
-  <script src="scripts.js"></script>
+    <script src="scripts.js"></script>
   </body>
 </html>
