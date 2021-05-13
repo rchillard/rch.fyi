@@ -79,15 +79,6 @@ img:hover {
   background-color: white
 }
 
-.logo-googleplay {
-  -webkit-mask-image: url(assets/googleplay.svg);
-  mask-image: url(assets/googleplay.svg);
-}
-
-.logo-googleplay:hover {
-  background-color:#ff5722
-}
-
 .logo-trello {
   -webkit-mask-image: url(assets/trello.svg);
   mask-image: url(assets/trello.svg);
