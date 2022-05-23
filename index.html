@@ -5,20 +5,6 @@
     <title>RCH</title>
     <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico" />
     <link rel="stylesheet" href="styles.css" />
-    <script>
-      if ("serviceWorker" in navigator) {
-        navigator.serviceWorker
-          .register("sworker.js")
-          .then(function(reg) {
-            // registration worked
-            console.log("Registration succeeded. Scope is " + reg.scope);
-          })
-          .catch(function(error) {
-            // registration failed
-            console.log("Registration failed with " + error);
-          });
-      }
-    </script>
   </head>
   <body>
     <canvas id="stars"></canvas>
